@@ -1,0 +1,1 @@
+print([ i for i in input("Sentence: ") if i.lower() in "aeiou"])
