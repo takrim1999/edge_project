@@ -18,7 +18,7 @@ for i in range(n):
 print(student_dictionary)
 for i in student_dictionary:
     student_list.append([i,student_dictionary[i]])
-print(student_list)
+# print(student_list)
 with open('Stdent_name_marks.csv', "w", newline="") as record_file:
     writer = csv.writer(record_file)
     writer.writerow(header)
