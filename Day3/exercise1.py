@@ -1,1 +1,0 @@
-print("No excercise today, happy coding!")

@@ -1,7 +1,0 @@
-numSet1 = set(input('Set 1: ').split(','))
-numSet2 = set(input('Set 2: ').split(','))
-print("Sets: ", numSet1, numSet2)
-print("Union: ",numSet1|numSet2)
-print("Intersection: ", numSet1&numSet2)
-print("Difference: ", numSet1-numSet2)
-print("Symetric Difference: ", numSet1^numSet2)
