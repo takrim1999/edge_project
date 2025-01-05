@@ -45,7 +45,7 @@ class Menu:
 
 choice = False
 while choice != "exit":
-    choice = input("Your Choice: ")
+    choice = input("Your Choice(show menu, add item, order, exit): ")
     newmenu = Menu()
     if choice == "show menu":
         newmenu.viewItems()
